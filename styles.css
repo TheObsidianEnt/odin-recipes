@@ -1,0 +1,59 @@
+/**/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: black;
+    border-width: 5px;
+    border-style: inset;
+    border-radius: 15px;
+    align-content: center;
+}
+/**/
+#button li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+    width: 200px;
+    line-height: 60px;
+    border-radius: 15px;
+  }
+
+  #button li a {
+    padding: 25px;
+    text-decoration: none;
+    color: transparent;
+    display: block
+  }
+  
+  #button li a:hover {
+
+    border-radius: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1f0047ec;
+    transition-duration: 0.5s;
+    
+ }
+
+ .lasagna {
+    background-image: url(img/lasagna.jpeg);
+    position: relative;
+    z-index: -1;
+ }
+
+ .sesame {
+    background-image: url(img/sesame-chicken.jpeg);
+    background-size: cover;
+    display: block;
+    position: relative;
+    z-index: -1;
+ }
+
+ .stone {
+    background-image: url(img/stone-bowl.jpeg);
+    position: relative;
+    z-index: -1; 
+ }
