@@ -2,30 +2,43 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="/styles.css"
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>recipeName</title>
+    <title>recipeTitle</title>
 </head>
 
 <body>
-    <a href="../index.html">Home</a>
+    <a href="../index.html" id="header">Home</a>
+    <br>
+    <div id="recipe-outer">
+        <h1>recipeTitle</h1>
+        <img src="../img/" alt="alt-text">
+    </div>
+        <h2 class="description">Description</h2>
+            <div id="recipe-inner">
 
-    <h1 id="header">recipeName</h1>
-    <img src="../img/ " alt="">
+            </div>
 
-    <h2>Description</h2>
-        <p></p>
-
-        <h3>Ingredients</h3>
-            <ul></ul>
+        <div id="ingredients-wrapper">
+            <h3>Ingredients</h3>
+                <div id="ingredients-inner-wrapper">
+                    <ul>
+                 
+                    </ul>
+                </div>
+        </div>
 
         <h3>Steps</h3>
-            <ol></ol>
+            <div id="steps-wrapper">
+                <ol>
 
+                </ol>
+            </div>
     <h2>Source:</h2>
-    <a href="">Recipe Source</a>
-    <br><a href="#header">Back to top</a>
+    <a class="button" href="#">Recipe Source</a>
+    <a class="button" href="#header">Back to top</a>
 </body>
 </html>
