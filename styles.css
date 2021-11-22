@@ -6,11 +6,12 @@
    margin-left: 40px;
 }
 
-.head div {
+.head div, #recipe-outer {
    display: inline-flex;
    background-color: #1f0047;
    border-radius: 15px;
    padding: 20px;
+   margin-top: 10px;
 }
 
 #main-outer {
@@ -19,7 +20,7 @@
    margin: 30px;
 }
 
-#main-inner h1 {
+#main-inner h1, #recipe-outer h1{
    padding: 10px;
    text-align: center;
    color: white;
@@ -39,10 +40,11 @@
     width: 150px;
 }
 /**/
-#button li, .button{
+#button li, .button, #header{
     float: left;
     list-style: none;
     text-align: center;
+    margin-top: 10px;
     margin-right: 30px;
     width: 250px;
     line-height: 60px;
@@ -50,22 +52,25 @@
     background-color: tomato;
   }
 
-  #button li a, .button a {
+  #button li a {
     padding: 25px;
     text-decoration: none;
     color: transparent;
     display: block
   }
   
-  #button li a:hover, .button:hover {
+  #button li a:hover, .button:hover, #header:hover {
 
     border-radius: 15px;
     text-decoration: none;
     color: #ffffff;
     background-color: #1f0047ec;
     transition-duration: 0.5s;
-    
  }
+
+.button, #header{
+   text-decoration: none;
+}
 
  .lasagna {
     background-image: url(img/lasagna.jpeg);
@@ -89,6 +94,12 @@
 
  /*style recipes*/
 
+#recipe-outer img {
+   border-radius: 15px;
+   width: 250px;
+   height: auto;
+}
+
 #recipe-inner, #ingredients-inner-wrapper, #steps-wrapper{
    display: inline-block;
    background: #e8e8e8;
@@ -97,4 +108,5 @@
    width: 500px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    text-align: left;
+   margin-left: 50px;
 }
