@@ -1,3 +1,4 @@
+
 /*style index*/
 
 .recipe-links h2 {
@@ -89,14 +90,14 @@
 }
 
  .lasagna {
-    background-image: url(img/lasagna.jpeg);
+    background-image: url(../img/lasagna.jpeg);
     position: relative;
     z-index: -1;
     background-position: center;
  }
 
  .sesame {
-    background-image: url(img/sesame-chicken.jpeg);
+    background-image: url(../img/sesame-chicken.jpeg);
     background-size: cover;
     display: block;
     position: relative;
@@ -104,7 +105,7 @@
  }
 
  .stone {
-    background-image: url(img/stone-bowl.jpeg);
+    background-image: url(../img/stone-bowl.jpeg);
     position: relative;
     z-index: -1; 
  }
