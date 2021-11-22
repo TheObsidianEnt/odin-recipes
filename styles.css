@@ -1,34 +1,63 @@
-/**/
-* {
-    font-family: Arial, Helvetica, sans-serif;
+/*style index*/
+
+.recipe-links h2 {
+   display: block;
+   align-content: center;
+   margin-left: 40px;
 }
 
-img {
+.head div {
+   display: inline-flex;
+   background-color: #1f0047;
+   border-radius: 15px;
+   padding: 20px;
+}
+
+#main-outer {
+   display: flex;
+   align-items: stretch;
+   margin: 30px;
+}
+
+#main-inner h1 {
+   padding: 10px;
+   text-align: center;
+   color: white;
+   text-shadow: 
+      2px 2px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+#main-inner img {
     border: black;
     border-width: 5px;
     border-style: inset;
     border-radius: 15px;
-    align-content: center;
+    height: auto;
+    width: 150px;
 }
 /**/
-#button li {
+#button li, .button{
     float: left;
     list-style: none;
     text-align: center;
     margin-right: 30px;
-    width: 200px;
+    width: 250px;
     line-height: 60px;
     border-radius: 15px;
+    background-color: tomato;
   }
 
-  #button li a {
+  #button li a, .button a {
     padding: 25px;
     text-decoration: none;
     color: transparent;
     display: block
   }
   
-  #button li a:hover {
+  #button li a:hover, .button:hover {
 
     border-radius: 15px;
     text-decoration: none;
@@ -57,3 +86,15 @@ img {
     position: relative;
     z-index: -1; 
  }
+
+ /*style recipes*/
+
+#recipe-inner, #ingredients-inner-wrapper, #steps-wrapper{
+   display: inline-block;
+   background: #e8e8e8;
+   border-radius: 15px;
+   padding: 20px;
+   width: 500px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: left;
+}
